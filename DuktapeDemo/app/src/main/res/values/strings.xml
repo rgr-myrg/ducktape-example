@@ -1,0 +1,14 @@
+<resources>
+	<string name="app_name">DuktapeDemo</string>
+	<string name="javascript">
+		var JsObject = {
+			getId: function() {
+				return \'007\';
+			},
+			sendCmd: function(cmd) {
+                var msg = \'executing \' + cmd;
+                JavaObject.onComplete(msg);
+			}
+		};
+	</string>
+</resources>
